@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: ranvijay-singh
+
+  - includeAll:
+      path: DDL
+      relativeToChangelogFile: true
+
+  - includeAll:
+      path: DML
+      relativeToChangelogFile: true
